@@ -24,11 +24,11 @@ func main() {
     // Output greeting based on language
     switch *lang {
     case "en":
-        fmt.Printf("Hello, %s! 👋\n", *name)
+        fmt.Printf("Hello, %s! \n", *name)
     case "es":
-        fmt.Printf("¡Hola, %s! 👋\n", *name)
+        fmt.Printf("¡Hola, %s! \n", *name)
     case "fr":
-        fmt.Printf("Bonjour, %s! 👋\n", *name)
+        fmt.Printf("Bonjour, %s! \n", *name)
     default:
         fmt.Printf("Hello, %s! (Language not recognized)\n", *name)
     }
