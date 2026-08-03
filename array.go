@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func main() {
+	//
 
 	const conferenceTickets int = 50
 	var remainingTickets uint = 50
